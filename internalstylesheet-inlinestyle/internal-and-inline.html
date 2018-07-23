@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- This assignment explains the order of precedence of various stylesheets.
+          Precedence Order will be - 
+          Inline Stylesheet
+          Internal Stylesheet
+          External Stylesheet 
+    -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Welcome to CSS</title>
+    
+    <!-- Viewport is to make the page responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Importing External CSS-->
+    <link rel="stylesheet" type="text/css" media="screen" href="../external-stylesheet/styles.css" />
+    
+    <!--Internal CSS-->
+    <style>
+        body
+            {
+                background-color:blue; /* Overriding the body color red specified in external css
+                                             to color blue specified in internal CSS */
+            }
+    </style>
+
+</head>
+<body>
+    <!--Inline CSS-->
+   <h1 style="color:white"> <!--Overriding the text color blue specified in external css to color 
+                                  white specified in inline css-->
+       "Welcome to CSS3"
+   </h1>
+</body>
