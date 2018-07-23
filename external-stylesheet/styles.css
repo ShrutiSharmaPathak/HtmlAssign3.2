@@ -1,0 +1,10 @@
+/* This is external style sheet to be used in any html page*/
+
+h1
+{
+    color:blue; /* Text color in header 1 is set  to be blue*/
+}
+body
+{
+    background-color:red; /* Back ground color of the page body is set to Red*/
+}
